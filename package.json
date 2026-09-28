@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/wrapatom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Wrap and reshape atom text streams with deterministic transforms.",
+  "bin": {
+    "wrapatom": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/wrapatom.git"
+  },
+  "homepage": "https://theworker02.github.io/wrapatom/",
+  "keywords": [
+    "wrap",
+    "atom",
+    "text",
+    "cli",
+    "toolkit"
+  ]
+}
